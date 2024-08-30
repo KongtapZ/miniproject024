@@ -134,7 +134,13 @@ const Dashboard = () => {
       </div>
     );
   }else{
-    <div>Please press the switch!</div>
+    return (
+      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+        <h2 className="text-2xl font-medium text-red-600">
+          Please press the switch!
+        </h2>
+      </div>
+    );
   }
 };
 
