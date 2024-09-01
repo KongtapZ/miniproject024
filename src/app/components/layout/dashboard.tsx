@@ -78,7 +78,7 @@ const Dashboard = () => {
 
   if (status != 0) {
     return (
-      <div className="min-h-screen bg-gray-100 bg-gradient-to-br from-green-500 to-orange-600">
+      <div className="min-h-screen bg-gray-100 bg-gradient-to-br from-blue-500 to-purple-300">
         <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white shadow rounded-lg p-6">
