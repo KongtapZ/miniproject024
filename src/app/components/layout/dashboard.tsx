@@ -137,12 +137,29 @@ const Dashboard = () => {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-100 bg-gradient-to-br from-red-500 to-purple-600">
         <div className="bg-white shadow rounded-lg p-8 text-center">
+          <div className="flex justify-center mb-4">
+            {/* Animated Hourglass SVG */}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="2"
+              stroke="currentColor"
+              className="w-12 h-12 animate-spin text-gray-600"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 1.5v21m-3.75-3.75a6 6 0 006 0L12 15.75l-3.75 2.25zm0-13.5a6 6 0 006 0L12 8.25l-3.75-2.25zM21 3a1.5 1.5 0 00-1.5-1.5h-15A1.5 1.5 0 003 3v4.152a4.5 4.5 0 001.96 3.758L12 15l7.04-4.09A4.5 4.5 0 0021 7.152V3z"
+              />
+            </svg>
+          </div>
           <h2 className="text-xl font-bold text-gray-900 mb-4">Alert</h2>
           <p className="text-gray-700">Please press the switch!</p>
         </div>
       </div>
     );
-  }
+  }  
 };
 
 export default Dashboard;
