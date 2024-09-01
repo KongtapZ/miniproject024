@@ -136,7 +136,7 @@ const Dashboard = () => {
   } else {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-100 bg-gradient-to-br from-red-500 to-purple-600">
-        <div className="bg-white shadow rounded-lg p-8 text-center">
+        <div className="bg-white shadow rounded-lg p-8 text-center animate-bounce">
           <div className="flex justify-center mb-4">
             {/* Animated Hourglass SVG */}
             <svg
