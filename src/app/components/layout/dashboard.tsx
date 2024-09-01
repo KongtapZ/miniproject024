@@ -133,8 +133,15 @@ const Dashboard = () => {
         </div>
       </div>
     );
-  }else{
-    <div>Please press the switch!</div>
+  } else {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-100 bg-gradient-to-br from-red-500 to-purple-600">
+        <div className="bg-white shadow rounded-lg p-8 text-center">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Alert</h2>
+          <p className="text-gray-700">Please press the switch!</p>
+        </div>
+      </div>
+    );
   }
 };
 
