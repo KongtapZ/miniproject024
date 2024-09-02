@@ -42,7 +42,7 @@ export async function POST(req: Request) {
                 // RTW024 แก้
                 `UPDATE "RTW024"
                  SET ${column} = $1
-                 WHERE id = (SELECT id FROM "NUT006" ORDER BY id DESC LIMIT 1)`,
+                 WHERE id = (SELECT id FROM "RTW024" ORDER BY id DESC LIMIT 1)`,
                 [state] // Update the state value (e.g., "on" or "off")
             );
 

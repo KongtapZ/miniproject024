@@ -28,7 +28,7 @@ export async function POST(request:Request){
 
         const result = await client.query(
             // RTW024 แก้
-            'UPDATE "NUT006" SET temperature = $1, humidity = $2, ultrasonic = $3, status = $4 WHERE id = 1',
+            'UPDATE "RTW024" SET temperature = $1, humidity = $2, ultrasonic = $3, status = $4 WHERE id = 1',
             [temperature, humidity, ultrasonic, button]
         );
 
